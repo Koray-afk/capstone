@@ -1,0 +1,57 @@
+@media (max-width:767px) {
+    body{
+        margin: 0px 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .one1{
+        display: none;
+        background-color: white;
+    }
+    .one3{
+        display: none;
+    }
+    .container{
+        display: flex;
+        width: 100vw;
+    }
+    .imagica{
+        width: 100vw;
+    }
+    .imagica > h1{
+        font-size: 3rem;
+        margin: 0p auto;
+        
+    }
+    .main-grid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main-grid > *{
+        padding: 20px;
+    }
+    .main-container{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .block{
+        width: 80vw;
+        padding: 20px;
+    }
+    footer{
+        margin-top: 5rem;
+        width: 100vw;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
